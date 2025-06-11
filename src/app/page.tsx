@@ -90,7 +90,7 @@ export default function Home() {
           type="password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <Button onClick={onLogin}>Lpgin</Button>
+        <Button onClick={onLogin}>Login</Button>
       </div>
     </div>
   );
