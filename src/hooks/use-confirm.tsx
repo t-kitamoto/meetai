@@ -39,7 +39,7 @@ export const useConfirm = (
         title={title}
         description={description}
       >
-        <div className="pt-4 w-full flex flex-col-reverse gap-y-2 lg:flex-row items-center justify-end">
+        <div className="pt-4 w-full flex flex-col-reverse gap-y-2 lg:flex-row items-center justify-end gap-2">
           <Button
             onClick={handleCancel}
             variant="outline"
@@ -50,7 +50,7 @@ export const useConfirm = (
           <Button
             onClick={handleConfirm}
             variant="outline"
-            className="w-full lg:w-auto"
+            className="w-full lg:w-auto text-white bg-primary"
           >
             Confirm
           </Button>
