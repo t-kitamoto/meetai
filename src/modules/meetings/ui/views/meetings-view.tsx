@@ -14,7 +14,7 @@ import { DataPagination } from '@/components/data-pagination';
 export const MeetingsView = () => {
   const trpc = useTRPC();
   const router = useRouter();
-  const [filters, setFilers] = useMeetingsFilters();
+  const [filters, setFilters] = useMeetingsFilters();
 
   const { data } = useSuspenseQuery(
     trpc.meetings.getMany.queryOptions({
@@ -32,7 +32,7 @@ export const MeetingsView = () => {
       <DataPagination
         page={filters.page}
         totalPages={data.totalPages}
-        onPageChange={(page) => setFilers({ page })}
+        onPageChange={(page) => setFilters({ page })}
       />
       {data.items.length === 0 && (
         <EmptyState

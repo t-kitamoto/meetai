@@ -17,7 +17,7 @@ export const MeetingsListHeader = () => {
   const isAnyFilterModified =
     !!filters.status || !!filters.search || !!filters.agentId;
 
-  const onClearFIlters = () => {
+  const onClearFilters = () => {
     setFilters({
       status: null,
       agentId: '',
@@ -43,7 +43,7 @@ export const MeetingsListHeader = () => {
             <StatusFilter />
             <AgentIdFilter />
             {isAnyFilterModified && (
-              <Button variant="outline" onClick={onClearFIlters}>
+              <Button variant="outline" onClick={onClearFilters}>
                 <XCircleIcon className="size-4" />
                 Clear
               </Button>
