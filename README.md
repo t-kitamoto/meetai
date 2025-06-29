@@ -10,6 +10,10 @@ https://meetai-iota.vercel.app
 
 ---
 
+![画面イメージ](https://github.com/t-kitamoto/meetai/blob/main/public/image.png)
+
+---
+
 ## 使用技術
 
 - Next.js（App Router）
