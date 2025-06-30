@@ -1,4 +1,4 @@
-# Meet AI アプリ（SAAS エージェントプラットフォームアプリ）
+# Meet AI アプリ（SaaS AIエージェントプラットフォームアプリ）
 
 このアプリは、「Build and Deploy a SaaS AI Agent Platform | Next.js 15, React, Better Auth, Polar | Full Course 2025」をベースに作成した学習用のアプリです。
 
