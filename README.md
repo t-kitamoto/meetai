@@ -1,4 +1,4 @@
-# Meet AI アプリ（SAAS エージェントプラットフォームアプリ）
+# Meet AI アプリ（SaaS AIエージェントプラットフォームアプリ）
 
 このアプリは、「Build and Deploy a SaaS AI Agent Platform | Next.js 15, React, Better Auth, Polar | Full Course 2025」をベースに作成した学習用のアプリです。
 
@@ -10,23 +10,27 @@ https://meetai-iota.vercel.app
 
 ---
 
+![画面イメージ](https://github.com/t-kitamoto/meetai/blob/main/public/image.png)
+
+---
+
 ## 使用技術
 
 - Next.js（App Router）
 - React
 - TypeScript
-- tRPC
-- Neon
-- Drizzle
-- Shadcn/ui
 - Tailwind CSS
-- inngest
-- Better Auth
-- Polar
-- CodeRabbit
-- Stream
-- OpenAi
-- Vercel
+- Shadcn/ui　Radix UIベースの再利用可能なコンポーネントセット 
+- Neon　クラウドPostgreSQ
+- Drizzle　型安全なSQLライブラリ
+- tRPC　型安全なAPI通信
+- inngest　イベント駆動型のバックエンドワークフロー自動化  
+- Better Auth　認証・認可を簡潔に実装できるライブラリ
+- Polar　スポンサーシップ/課金プラットフォーム
+- CodeRabbit　AIによる自動コードレビュー支援 
+- Stream　チャットなどリアルタイム機能の提供  
+- OpenAi　AI機能の実装
+- Vercel　デプロイ
 
 ---
   
