@@ -38,6 +38,7 @@ https://meetai-iota.vercel.app
 
 - SaaSプラットフォームの構造理解
 
+![画面イメージ](https://github.com/t-kitamoto/meetai/blob/main/public/Sequence-Diagrams.png)
 ---
 
 ## 元教材
