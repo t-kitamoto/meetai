@@ -19,18 +19,18 @@ https://meetai-iota.vercel.app
 - Next.js（App Router）
 - React
 - TypeScript
-- tRPC
-- Neon
-- Drizzle
-- Shadcn/ui
 - Tailwind CSS
-- inngest
-- Better Auth
-- Polar
-- CodeRabbit
-- Stream
-- OpenAi
-- Vercel
+- Shadcn/ui　Radix UIベースの再利用可能なコンポーネントセット 
+- Neon　クラウドPostgreSQ
+- Drizzle　型安全なSQLライブラリ
+- tRPC　型安全なAPI通信
+- inngest　イベント駆動型のバックエンドワークフロー自動化  
+- Better Auth　認証・認可を簡潔に実装できるライブラリ
+- Polar　スポンサーシップ/課金プラットフォーム
+- CodeRabbit　AIによる自動コードレビュー支援 
+- Stream　チャットなどリアルタイム機能の提供  
+- OpenAi　AI機能の実装
+- Vercel　デプロイ
 
 ---
   
